@@ -1,0 +1,421 @@
+.<!doctype html>
+<html lang="pt-br">
+    <meta charset="utf-8">
+    <head>
+        <title>Seja Consciente</title>
+    <style>
+        body{
+           /*  background-image: url(FolhasColoridas.jpg);
+            background-attachment: fixed;
+            background-size: 100%; */
+            /* background-repeat: no-repeat; */
+            background-color: rgb(255, 255, 255);
+            background-image: linear-gradient(to bottom, #42A895,#52c023, #3f941b, #14ddb8);
+            background-attachment: fixed; 
+        }
+
+        .logo{
+            display: block;
+            /*border: 2px solid black;*/ 
+            /*border-radius: 10%;*/
+            width: 250px;
+            height: 90px;
+        }
+
+         .corpo{
+            width: 50%;
+            height: 100px;
+            /* border: 3px solid black; 
+            border-radius: 2%; */
+            margin-top: 10px;
+            /*background-color:white;*/
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .projetos{
+            margin-top: 10px;
+           background-color: rgba(21, 255, 0, 0.103);
+           border-radius: 10%;
+        }
+
+       .rodape{
+           position: fixed;
+           bottom: 0;
+           background-color: black;
+           display: flex;
+           justify-content:center;
+           width: 100%;
+           color:white;
+       }
+
+       .fruto-orange{
+            color: orange;
+            font-size: 1rem;
+            font-weight: 300;
+       }
+
+       .Seja_consciente{
+             text-align: center;
+             color: #ffffff;
+             font-size: 100px; 
+             font-style: oblique;
+             font-family:Arial, Helvetica, sans-serif;       
+        }
+        
+        .informaçoes{
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+            margin-left: auto; 
+            margin-right: auto;
+            margin-top: 10px;
+            font-size: 22px;
+            text-align: center;
+        }
+        
+       .equipes{
+           margin-top: 10px;
+           background-color: rgba(21, 255, 0, 0.103);
+           border-radius: 10%;
+       }
+
+        .botoes{
+            text-align: center;            
+        }
+        .Botoes-centro{
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 50px;
+        }
+
+        .Preto-Top{
+            background-color: rgb(0, 0, 0);
+            height: 80px;
+        }
+
+        .Redes_sociais ul li{
+            display: inline-block;
+            float: left;
+            list-style: none;
+        }
+        
+        .Redes_sociais{
+            width: 20%;
+            float: right;
+        }
+        .insta{
+            width: 50px;
+            height: 50px;
+        }
+
+        .zap{
+            width: 50px;
+            height: 50px;
+        }
+        
+        /*         .Fundo{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+ */
+        .conteiner{
+            width: left;
+            margin: auto;
+            position: relative;
+            color: black;
+            margin-top: 0%;
+        }
+        .conteiner img{
+            width: 100%;
+            border-radius: 2%;
+            width: 1325px;
+            height: 500px;
+        }
+        .Seja_consciente{
+            position: absolute;
+            top: 10%;
+            left: 25%;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.192);
+        }
+        .b-insta2{
+            background-color: rgba(0, 0, 0, 0);
+            cursor: pointer;
+        }
+        .b-zap2{
+            background-color: rgba(0, 0, 0, 0);
+            cursor: pointer;
+        }
+        .Como_Funciona{
+            text-align: left;
+            font-size: 40px; 
+             font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin-top: 10px;
+            display: inline-block; 
+        }
+        .Como_Funciona2{
+            text-align:left;
+            margin-top: 20px;
+            color: rgb(0, 0, 0);
+            font-size: 19px; 
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             background-color: rgba(255, 255, 255, 0);
+             width: 95%;
+             margin-right: 81px;
+        }
+        .quem_somos{
+            text-align: left;
+            font-size: 40px; 
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin-top: 10px;
+            float: left;
+        }
+        .introducao{
+            text-align:left;
+            margin-top: 20px;
+            color: rgb(0, 0, 0);
+            font-size: 19px; 
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgba(255, 255, 255, 0);
+            width: 85%;
+            }
+        .cronograma1{
+            text-align:left;
+            margin-top: 30px;
+            color: rgb(0, 0, 0);
+            font-size: 19px; 
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .cronograma{
+            text-align:left;
+            margin-top: 170px;
+            color: rgb(0, 0, 0);
+            font-size: 18px; 
+             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             background-color: rgba(255, 255, 255, 0);
+            }
+            .tudo{
+                background-color: rgba(255, 255, 255, 0.103);
+                border-radius: 10px;
+            }
+            .coleta{
+                background-color: rgba(255, 255, 255, 0.185);
+                border-radius: 10px;
+                width: 90%;
+            }
+            .coleta1{
+                background-color: rgba(255, 255, 255, 0.185);
+                border-radius: 10px;
+                width: 90%;
+            }
+            .coleta2{
+                background-color: rgba(255, 255, 255, 0.185);
+                border-radius: 10px;
+                width: 90%;
+            }
+            .coleta3{
+                background-color: rgba(255, 255, 255, 0.185);
+                border-radius: 10px;
+                width: 90%;
+            }
+            .img_D{
+            width: 50%;
+            width: 250px;
+            float: left;
+            border-radius: 100%;
+            }
+            .img_E{
+            width: 50%;
+            width: 250px;
+            float: left;
+            border-radius: 100%;
+            }
+            .E{
+                text-align: center;
+            }
+            .Bibiografia1{
+                text-align: left;
+                font-size: 22px;
+                margin-left: 18%;
+            }
+            .Bibiografia2{
+                text-align: left;
+                font-size: 22px;
+                margin-left: 36%;
+            }
+            .FIM{
+                text-align: right;
+                font-size: 20px;
+            }
+            
+            
+
+
+  </style>
+
+        </head>
+    <body>
+
+        <main>
+            <div class="Preto-Top">
+                <div class="Redes_sociais">    
+                        <ul>
+                            <a href="https://www.instagram.com/sejaconsciente2021/" target="_blank" class="b-insta">
+                                <button class="b-insta2" type="button">
+                                    <il>
+                                        <img class="insta" src="C:\Users\Daniel Paixão\Desktop\Fruto\Frutificar\instagram.png"/>
+                                    </il>
+                                </button>
+                            </a>
+                            <a href="https://wa.me/5581988428885" target="_blank" class="b-zap">
+                                <button type="button" class="b-zap2">
+                                    <il>
+                                        <img class="zap" src="C:\Users\Daniel Paixão\Desktop\Fruto\Frutificar\whatsapp.png"/>
+                                    </il>
+                                </button>
+                            </a>  
+                        </ul>
+                    
+                </div>
+                <div> 
+                    <img class="logo" src="C:\Users\Daniel Paixão\Desktop\Fruto\Frutificar\Seja Consciente.png">
+                </div>
+            </div>
+        </main>
+        <section class="conteiner">
+            <img class="canal" src="C:\Users\Daniel Paixão\Desktop\Fruto\Frutificar\foto do JACARE.jpeg"/>
+            <div>
+                <h1 class="Seja_consciente">SEJA 
+                    <br>CONSCIENTE</h1>
+            </div>
+        </section>
+        <div class="tudo">
+            <div class="quem_somos">
+                Quem Somos:
+                <div class="introducao">
+                    Somos os melhores no nosso segmento, e é tudo graças aos relacionamentos
+                    <br>incriveis que formamos com a nossa comunidade. Ao contrário dos nossos 
+                    <br>concorrentes, somos dedicados ao desenvolvimento de uma conexão social 
+                    <br>com cada um dos nossos usuários.Só queremos ajudar
+                    <br>a nossa comunidade com a comunicação,empatia e com a nossa 
+                    <br>união queremos fazer a diferença.Para isso, prestamos 
+                    <br>serviços de qualidade e estamos à disposição 24 horas por dia, 7 dias por semana.
+                    <br>Entre em contato conosco quando estiver pronto para saber mais. Teremos o prazer de conhecê-lo!
+                </div>
+            </div>
+            <div class="Como_Funciona">
+                Como funcionamos:
+                <div class="Como_Funciona2">
+                    Essa plataforma foi criada para que os moradores tenham 
+                    <br>acesso aos dias da coleta de lixo de cada município e o horário 
+                    <br>que o caminhão de lixo estará passando em sua localidade.
+                </div>
+            </div>
+            <div class="cronograma">
+            <h1>Cronograma liberado pela Prefeitura de Paulista:</h1>
+            <div class="cronograma1">
+                Por meio da Secretaria de Infraestrutura e Serviços Públicos, Prefeitura de Paulista apresenta turnos e locais pelos quais os caminhões fazem a coleta em cada bairro.
+                <br>Após a instalação de coletores de lixo em diversos pontos da cidade e da renovação de 30% na frota dos caminhões responsáveis pela limpeza, 
+                a Prefeitura de Paulista segue empenhada em garantir a limpeza do município. Nesta terça-feira (02),
+                a Secretaria de Infraestrutura e Serviços Públicos divulgou o cronograma da coleta de lixo diária, apresentando a agenda. 
+                A ação visa aumentar a eficiência do serviço e conscientizar os munícipes sobre a necessidade do descarte adequado dos resíduos domésticos.
+                No cronograma, foram especificados os turnos e dias pelos quais os caminhões coletores passam em cada bairro.
+                A melhoria na coleta do lixo, impulsionada pela operação, é fundamental para a limpeza da 
+                cidade para que os espaços públicos fiquem mais limpos e visualmente agradáveis. 
+                É fundamental a colaboração da população e a conscientização de todos quanto à questão.
+                A Secretaria de Infraestrutura e Serviços Públicos alerta sobre a necessidade de que todos façam sua parte, 
+                descartando o lixo dentro dos coletores, de preferência nos horários próximos à passagem dos caminhões de coleta. 
+                <p><h2>Confira abaixo o cronograma completo:</h2></p>
+            </div>
+            </div>
+            <p>
+                <div class="informaçoes">
+                    <div class="equipes">
+                        <ul>
+                            <li><h4>Coleta diária - diurna:</h4></li>
+                            <div class="coleta"><h5><br>Jardim Maranguape (Diurna)
+                                <br>Maranguape 1 (Diurna)
+                                <br>Maria Farinha (Diurna)
+                                <br>Catolé (Diurna)
+                                <br>PE -01 / PE-15 / PE-22 (Diurna)</h5></div>
+                            <li><h4>Coleta diária – noturna:</h4></li>
+                            <div class="coleta1"><h5><br>Arthur Lundgren I (Noturna)
+                                <br>Arthur Lundgren II (Noturna)
+                                <br>Aurora (Noturna)
+                                <br>Centro (Noturna)
+                                <br>Jardim Paulista Alto (Noturna)
+                                <br>Jardim Paulista Baixo (Noturna)
+                                <br>Maranguape II (Noturna)
+                                <br>Jaguaribe (Noturna)
+                                <br>Nobre (Noturna)
+                                <br>Paratibe (Noturna)</h5></div>
+                        </ul>
+                    </div>
+                    <div class="projetos">
+                        <ul>
+                            <li><h4>Coleta segunda/quarta/sexta:</h4></li>
+                            <div class="coleta2"><h5><br>Fragoso (Diurna)
+                                <br>Janga (Diurna)
+                                <br>Maranguape III (Diurna)
+                                <br>Mumbeca I, II / Cesário (Diurna)
+                                <br>Nossa Senhora da Conceição (Diurna)
+                                <br>Alto do Bigode (Noturna)
+                                <br>Novo Horizonte (Noturna)
+                                <br>Riacho de Prata II (Noturna)
+                                <br>Torres Galvão (Noturna)</h5></div>
+                            <li><h4>Coleta terça/quinta /sábado:</h4></li>
+                            <div class="coleta3"><h5><br>Chã de Mangabeira (Diurna)
+                                <br>Mirueira (Diurna)
+                                <br>Mata do Ronca (Diurna)
+                                <br>Nova Aurora (Diurna)
+                                <br>Pau Amarelo (Diurna)
+                                <br>Engenho Maranguape (Diurna)
+                                <br>Alameda  (Noturna)
+                                <br>Jaguarana  (Noturna)
+                                <br>Riacho de Prata I  (Noturna)</h5></div>
+                        </ul>
+                    </div>
+                </div>
+            </p>
+                <div class="E">
+                    <div >
+                        <img class="img_E" src="C:\Users\Daniel Paixão\Desktop\Fruto\Frutificar\WhatsApp Image 2021-08-20 at 09.14.03.jpeg">
+                            <div class="Bibiografia1">
+                                <ul><h5><li>Evelen Rodrigues</li>
+                                    <li>16 anos</li>
+                                    <li>Estudante da Erem Escritor José de Alencar</li> 
+                                    <li>Front End</li>
+                                    <li>Fundadora e Administradora</li></h5>
+                                </ul> 
+                            </div>
+                    </div>
+                    <div>
+                        <img class="img_D" src="C:\Users\Daniel Paixão\Desktop\Fruto\Frutificar\WhatsApp Image 2021-08-20 at 09.51.58.jpeg">
+                        <div class="Bibiografia2">
+                            <ul><h5><li>Diogenes Kauam</li>
+                                <li>18 anos</li>
+                                <li>Diretor de Mobilização comunitaria do Fruto de Favela</li>
+                                <li>Programador</li> 
+                                <li>Front End</li>
+                                <li>Desenvolvedor da Plataforma</li></h5>
+                            </ul> 
+                        </div>
+                    </div>
+                </div>
+            <p>
+                <div class="FIM"><i>A presença do meio ambiente começa com pequenas atitudes diárias, 
+                    <br>que fazem toda diferença, uma das mais importantes é a reciclagem.♻️🌱</i></div>
+            </p>
+        </div>
+    </body>
+        <footer class="rodape">
+            <span> Obrigado por visitar <strong class="Seja Consciente"> nosso site <3
+            </strong></span>
+        </footer>
+        <script src="Seja_consciente.js"></script>
+</html>
