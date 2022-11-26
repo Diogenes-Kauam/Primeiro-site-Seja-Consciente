@@ -1,22 +1,14 @@
 <style>
-        body{
-           /*  background-image: url(FolhasColoridas.jpg);
-            background-attachment: fixed;
-            background-size: 100%; */
-            /* background-repeat: no-repeat; */
-            background-color: rgb(255, 255, 255);
-            background-image: linear-gradient(to bottom, #42A895,#52c023, #3f941b, #14ddb8);
-            background-attachment: fixed; 
-        }
 
-        .logo{
-            display: block;
-            /*border: 2px solid black;*/ 
+
+    .logo{
+        display: block;
+        /*border: 2px solid black;*/ 
             /*border-radius: 10%;*/
-            width: 150px;
-            height: 100px;
-            length: 200px;
-        }
+        width: 150px;
+        height: 100px;
+        length: 200px;
+    }
 
          .corpo{
             width: 50%;
@@ -33,7 +25,7 @@
 
         .projetos{
             margin-top: 10px;
-           background-color: rgba(21, 255, 0, 0.103);
+           background-color: rgba(21, 255, 0, 0.138);
            border-radius: 10%;
         }
 
@@ -177,7 +169,7 @@
             color: rgb(0, 0, 0);
             font-size: 19px; 
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            background-color: rgba(255, 255, 255, 0);
+            background-color: rgba(207, 0, 0, 0);
             width: 85%;
             }
         .cronograma1{
